@@ -13,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Main />}></Route>
         <Route path={routes.changeUser} element={<ChangeUser />}></Route>
         <Route path={routes.enter} element={<Enter />}></Route>
         <Route path={routes.main} element={<Main />}></Route>

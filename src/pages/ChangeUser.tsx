@@ -9,7 +9,7 @@ const ChangeUser: React.FC = () => {
             <div className="container">
                 <div className="box1">
                     <p>Содержимое контейнера 1</p>
-                    <img src="https://i.ibb.co/TcMRKZv/SF-2-1.png" alt="SF-2-1"/>
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/D8KXRDq/SF-2-1.png" alt="SF-2-1" /></a>
                 </div>
                 <div className="box2">Содержимое контейнера 2</div>
             </div>
