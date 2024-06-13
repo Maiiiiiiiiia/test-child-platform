@@ -2,9 +2,142 @@
   text-align: center;
 }
 
+.menu {
+  height: 100vh;
+  justify-content: left;
+  background-color: #EEEEFF;
+}
+
+/* .header span {
+    margin-left: auto;
+} */
+/* .circle-container {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  content: '123';
+  background-color: rgb(192, 68, 68);
+} */
+.header {
+  width: 100vw;
+  height: 80px;
+  position: relative;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(192, 68, 68); /* Цвет кружков */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left {
+  right: 150px; /* Расположение левого кружка */
+}
+
+.right {
+  right: 80px; /* Расположение правого кружка */
+}
+
+.circle.right span {
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: #282c34;
+  z-index: 9999;
+}
+
+.container {
+  display: flex; /* Используем flexbox для создания гибкого контейнера */
+}
+
+.selected-section-color {
+  background-color: #7362BC;
+  border-radius: 10px;
+}
+
+.box1 {
+  flex: 1; /* Равномерно распределяем пространство между контейнерами */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  background-color: #7362BC;
+  width: 526px;
+  height: 248px;
+  /* top: '88px'; */
+  /* left: '318px'; */
+  /* gap: '0px'; */
+  border: 30px 0px 0px 0px;
+  border-radius: 25px;
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* opacity: '0'; */
+
+}
+
+.box1 img {
+  /* width: 50%; Изменяем ширину изображения на 50%, чтобы оно занимало правую часть контейнера */
+  height: 100%;
+  object-position: right;
+  position: relative;
+  overflow: hidden;
+  /* object-fit: right; Растягиваем изображение, чтобы оно заполнило контейнер */
+  /* border-radius: 25px; Применяем скругление углов к изображению */
+}
+
+
+.box2 {
+  flex: 1; /* Равномерно распределяем пространство между контейнерами */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 25px;
+  background-color: #FFF1CB;
+  ;
+}
+
+.box3 {
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  flex: 1; /* Равномерно распределяем пространство между контейнерами */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 25px;
+  height: 50vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.button {
+  background-color: #DECFFF;
+  color: white;
+  padding: 10px 20px;
+  margin: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100vh;
+  border: none;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
