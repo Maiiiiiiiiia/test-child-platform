@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     <Navbar className="header shadow-sm" expand="lg" bg="light">
       <Navbar.Brand className="d-flex justify-content-between align-items-center">
         <div className="circle left"></div>
-        <div className="circle right" onClick={toggleDropdown}>
+        <div className="circle right" onClick={toggleDropdown}> тык сюда
           {showDropdown ? <span>&#10003;</span> : null}
         </div>
         {showDropdown && (

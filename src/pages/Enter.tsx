@@ -25,7 +25,7 @@ const Enter: React.FC = () => {
                             {({ handleSubmit }) => (
                                 <Form onSubmit={handleSubmit} className="form">
                                     <div className="text-center">
-                                        <a href="https://imgbb.com/"><img src="https://i.ibb.co/Z1y23xv/Logomark-1.png" alt="Logomark-1" /></a>
+                                    <img src="https://i.ibb.co/cc7Zzth/Logomark-1.png" alt="Logomark-1" />
                                     </div>
                                     <h1>Вход в Sirius Future</h1>
                                     <Form.Group className="mb-3">
@@ -38,7 +38,7 @@ const Enter: React.FC = () => {
                                     <Form.Group className="mb-3">
                                         <Form.Check type="checkbox" label="Запомнить меня" />
                                     </Form.Group>
-                                    <Button type="submit" className="w-100" variant="outline-primary">Войти</Button>
+                                    <button type="submit" className="button w-100 center-button" >Войти</button>
                                     <div className="card-footer p-4">
                                         <div className="text-center">
                                             <Link to="#">Я забыл пароль</Link>

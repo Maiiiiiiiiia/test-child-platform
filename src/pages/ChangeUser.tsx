@@ -28,11 +28,11 @@ const ChangeUser: React.FC = () => {
 
 
 
-                    <button className="button">Button</button>
+                    <button className="center-button ">Button</button>
                 </div>
-                <div className="box3">
+                <div className="box4">
                     <p>Ближайшие уроки</p>
-                    <button className="button">Button</button>    
+                    <button className="center-button">Button</button>    
                 </div>
             </div>
         </>

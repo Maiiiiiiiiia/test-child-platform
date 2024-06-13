@@ -55,7 +55,7 @@ const Main: FC = () => {
       <Row className="bg-white h-100">
         <Col md={2} className="menu px-4 py-4 bg-light flex-column d-flex">
           <Col className="menu border-end flex-column d-flex rounded">
-            <img src="https://i.ibb.co/MCm5rgr/logo.png" alt="logo" />
+            <img src="https://i.ibb.co/MCm5rgr/logo.png" alt="logo" className="img-fluid"/>
             <ul id="menu-box" className="nav flex-column nav-pills nav-fill px-2 mb-3 overflow-auto h-100 d-block">
               <div onClick={() => handleMenuClick('changeUser')} className={selectedClass === 'changeUser' ? 'selected-section-color' : ''}>
               <img src="https://i.ibb.co/7R33KnJ/menu-element.png" alt="menu-element" />
