@@ -1,6 +1,8 @@
 ## Посмотреть результат:
 
---> https://test-child-platform.vercel.app/ <--
+Страница входа --> https://test-child-platform-25khm81a0-maykulievas-projects.vercel.app/enter <--
+
+Внутри сайта --> https://test-child-platform-25khm81a0-maykulievas-projects.vercel.app/main <--
 
 
 
