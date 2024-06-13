@@ -25,7 +25,7 @@ const Enter: React.FC = () => {
                             {({ handleSubmit }) => (
                                 <Form onSubmit={handleSubmit} className="form">
                                     <div className="text-center">
-                                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/cc7Zzth/Logomark-1.png" alt="Logomark-1" /></a>
+                                        <img src="https://i.ibb.co/cc7Zzth/Logomark-1.png" alt="Logomark-1" />
                                     </div>
                                     <h1>Вход в Sirius Future</h1>
                                     <Form.Group className="mb-3">
